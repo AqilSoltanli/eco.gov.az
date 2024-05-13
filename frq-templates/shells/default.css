@@ -1,0 +1,53 @@
+/** Required **/
+
+div.frq_validation_error {
+    color: #FF0000 !important;
+    clear: both;
+    padding: 3px 0px 3px 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+input.frq_validation_error {
+    color: #FF0000 !important;
+}
+
+input.frq_validation_success {
+    color: green !important;
+}
+
+.frq-richtext-img-class-align-left {
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+
+.frq-richtext-img-class-align-right {
+    float: right;
+    padding: 10px 0 10px 10px;
+}
+
+.frq-richtext-img-class-align-center {
+    padding: 10px 10px 10px 10px;
+}
+
+.content_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.content_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.content_table tr:first-child td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
